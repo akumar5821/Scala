@@ -63,3 +63,19 @@ object usingForLoop extends  App{
       print( example + " ")
     }
 }
+Functions Basics
+
+object addSum {
+  def addTwoSum(a: Int, b: Int): Int ={
+    var add: Int = 0;
+    add = a+b;
+    if(a==b){
+      return add*3
+    }
+    else
+      return add
+  }
+  def main(args: Array[String]): Unit ={
+    println(addTwoSum(10,10))
+  }
+}
