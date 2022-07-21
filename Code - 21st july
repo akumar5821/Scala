@@ -31,3 +31,11 @@ object DataTypes extends App{
   println(1.0f-0.9f-0.1f)
   println(math.random())
 }
+
+For Loops
+
+
+object ForLoop extends App{
+ for (i <-0 to 9) {
+   println(i)
+ }
