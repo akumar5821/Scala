@@ -51,3 +51,15 @@ object ForLoop extends App{
   for(i <- exampleList if i<6 && i>3)
     print(i + " ")
 }
+
+object usingForLoop extends  App{
+  var example = 0
+  var exampleList = List(1, 2, 3, 4, 5, 6, 7, 8)
+  var output = for{example <- exampleList if example<6 && example>3}
+  yield example
+  
+    for (example <- output)
+    {
+      print( example + " ")
+    }
+}
