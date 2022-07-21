@@ -20,4 +20,14 @@ object ConditionalOperators extends App{
 }
 
 
-changes
+object DataTypes extends App{
+  println(Int.MinValue, Int.MaxValue)
+  println(Byte.MinValue,Byte.MaxValue)
+  println(2000000000L+2000000000L)
+  println(Long.MinValue , Long.MaxValue)
+  println(7582.toBinaryString)
+  println(7582.toHexString)
+  println(7582.toOctalString)
+  println(1.0f-0.9f-0.1f)
+  println(math.random())
+}
