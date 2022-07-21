@@ -1,0 +1,20 @@
+Conditional Operators:
+
+object ConditionalOperators extends App{
+  val userID = StdIn.readLine("Enter your userID: ")
+  val password = StdIn.readLine("Enter your password: ")
+  if( (userID == "akumar") && (password =="rp")){
+    println("Access Granted, Please enter your full name")
+    val userFirstName = StdIn.readLine("Enter your First name: ")
+    val userLastName = StdIn.readLine("Enter your Last name: ")
+      println("Welcome aboard", userFirstName + " " + userLastName)}
+  else if((userID == "affine") && (password == "123")) {
+    println("Access Granted, Please enter your full name")
+    val userFirstName = StdIn.readLine("Enter your First name: ")
+    val userLastName = StdIn.readLine("Enter your Last name: ")
+    println("Welcome aboard", userFirstName + " " + userLastName)
+    }
+  else{
+    println("Access Denied")
+  }
+}
