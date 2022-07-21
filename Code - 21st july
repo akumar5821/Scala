@@ -19,6 +19,7 @@ object ConditionalOperators extends App{
   }
 }
 
+DataTypes
 
 object DataTypes extends App{
   println(Int.MinValue, Int.MaxValue)
@@ -33,7 +34,6 @@ object DataTypes extends App{
 }
 
 For Loops
-
 
 object ForLoop extends App{
  for (i <-0 to 9) {
