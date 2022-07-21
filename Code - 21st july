@@ -103,3 +103,17 @@ object isPrime {
   def main(args: Array[String]): Unit ={
     println(isPrime(2))
   }
+  
+  object NewPalindrome {
+  def isPalindrome(x: String): Boolean = {
+    var xstr: String = x.toString
+    var xrev: String = xstr.reverse
+
+    if (xstr == xrev)
+      return true
+    else
+      return false
+  }
+def main(args: Array[String]): Unit ={
+  println(isPalindrome("MalayalaM"))
+}
