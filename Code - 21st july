@@ -1,3 +1,13 @@
+Strings
+
+object String {
+  val inputFile: String = StdIn.readLine("Enter your input:" )
+
+  def main(args: Array[String]): Unit ={
+    println(greeting)
+  }
+}
+
 Conditional Operators:
 
 object ConditionalOperators extends App{
@@ -79,3 +89,5 @@ object addSum {
     println(addTwoSum(10,10))
   }
 }
+
+
