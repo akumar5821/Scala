@@ -7,3 +7,16 @@ object Closure {
     println(add(10))
   }
 }
+
+
+object  demonstrate {
+  var factor = 3;
+  var multiply = (x:Int) => x * factor
+
+  def main(args: Array[String]): Unit ={
+    factor = 4
+    factor = 5
+    println("multiply(30) value will be: " + multiply(30))
+  }
+
+}
