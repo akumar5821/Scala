@@ -31,3 +31,21 @@ object favouriteMovieDetails extends App{
   val favMovie = StdIn.readLine("Enter your favourite movie: " )
   println(s"Good Morning, $fname $lname. Your favourite movie of all time is $favMovie")
 }
+
+object fastFood extends App{
+  val donutBoughtstr = "Vanilla Donut 10 2.25"
+  val splitStr = donutBoughtstr.split(" ")
+  val donutType = splitStr(0)
+  val donutName = splitStr(1)
+  val donutQty = splitStr(2).toInt
+  val donutPrice = splitStr(3).toDouble
+
+  val donutOutput =
+    s"""
+      |Donut Name: = $donutType $donutName
+      |Donut Price: = $$$donutPrice
+      |Donut Purchased: = $donutQty
+      |""".stripMargin
+
+  println(donutOutput)
+}
