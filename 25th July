@@ -57,3 +57,15 @@ object findCommonItems extends App{
   val commonItems = setBasketOne intersect(setBasketTwo)
   println(commonItems)
 }
+
+object SampleCode{
+  def sumValues(n:Int): Double ={
+    if(n<1)
+      0.0
+    else
+      readDouble() + sumValues(n-1)
+  }
+  def main(args:Array[String]): Unit ={
+    println(sumValues(3))
+  }
+}
