@@ -1,0 +1,13 @@
+object NameAndAge extends App{
+  val name = StdIn.readLine("Enter your name: ")
+  println("Enter your age: ")
+  val age = StdIn.readInt()
+  println(Console.BOLD)
+  print("Name: ")
+  print(Console.UNDERLINED)
+  print(name)
+  println(Console.BOLD)
+  print("Age: ")
+  print(Console.RESET)
+  print(age)
+}
