@@ -18,3 +18,8 @@ object FindNthCharacter extends App{
   val charToFind = str.charAt(7)
   println(s"The 8th character literal in $str = $charToFind")
 }
+
+object  favouriteMovie extends  App{
+  val fav = StdIn.readLine("what is your favourite movie?")
+  println(s"Your favourite movie of all time is $fav")
+}
