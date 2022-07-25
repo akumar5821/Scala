@@ -23,3 +23,11 @@ object  favouriteMovie extends  App{
   val fav = StdIn.readLine("what is your favourite movie?")
   println(s"Your favourite movie of all time is $fav")
 }
+
+
+object favouriteMovieDetails extends App{
+  val fname = StdIn.readLine("Enter your First name: ")
+  val lname = StdIn.readLine("Enter your last name: ")
+  val favMovie = StdIn.readLine("Enter your favourite movie: " )
+  println(s"Good Morning, $fname $lname. Your favourite movie of all time is $favMovie")
+}
