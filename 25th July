@@ -49,3 +49,11 @@ object fastFood extends App{
 
   println(donutOutput)
 }
+
+
+object findCommonItems extends App{
+  val setBasketOne = Set("cake", "bread", "milk","meat")
+  val setBasketTwo = Set("meat", "mobile", "bread", "chair")
+  val commonItems = setBasketOne intersect(setBasketTwo)
+  println(commonItems)
+}
